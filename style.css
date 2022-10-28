@@ -12,6 +12,28 @@
         border: 2px solid black;
     }
 
+    .logo{
+        width: 130px;
+        padding-right: 10px;
+    }
+    
+   
+    .nav_right{
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        
+    }
+
+    .fa-solid{
+        padding-top: 20px;
+        padding-right: 5px;
+    }
+
+
+    
+
+
 
 
 
@@ -49,3 +71,16 @@
         min-height: 200px;
         background-color:#1b72e8;
     }
+
+
+
+    @media screen and (max-width:900px){
+
+        .aside{
+            width: 100px;
+        
+
+
+    }
+        
+    

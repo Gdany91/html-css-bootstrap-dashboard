@@ -51,11 +51,25 @@
     }
 
     .aside{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         width: 200px;
         background-color: #0d253a;
         /* DEBUG */
         height: 100vh;
 
+    }
+
+    #aside_list{
+        color: white;
+        list-style-type: none;
+    }
+
+
+    .aside_bottom{
+        color: white;
+        list-style-type: none;
     }
 
     .grow{
@@ -74,13 +88,32 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     @media screen and (max-width:900px){
 
         .aside{
-            width: 100px;
+            width: 80px;
+        }
         
-
+        .aside_item{
+            display: none;
+        }
 
     }
-        
-    

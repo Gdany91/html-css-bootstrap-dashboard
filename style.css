@@ -16,6 +16,13 @@
         width: 130px;
         padding-right: 10px;
     }
+
+    .logo_md{
+        display: none;
+        width: 80px;
+        padding-right: 10px;
+    }
+   
     
    
     .nav_right{
@@ -113,6 +120,15 @@
         }
         
         .aside_item{
+            display: none;
+        }
+
+        .logo_md{
+            display: inline-block;
+          
+        }
+
+        .logo{
             display: none;
         }
 

@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+
+    /* DEBUG */
+    header{
+        min-height: 100px;
+        border: 2px solid black;
+    }
+
+
+
+
+
+
+
+
+
+/* corpo centrale */
+
+    .wrapper{
+        display: flex;
+        justify-content: start;
+
+    }
+
+    .aside{
+        width: 200px;
+        background-color: #0d253a;
+        /* DEBUG */
+        height: 100vh;
+
+    }
+
+    .grow{
+        flex-grow: 1;
+        
+        /* DEBUG */
+        height: 100vh;
+
+    }
+
+    .top{
+        /*  DEBUG */
+        min-height: 200px;
+        background-color:#1b72e8;
+    }
